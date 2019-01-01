@@ -14,6 +14,7 @@ namespace ConsoleUI
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            Console.Read(); //Keep console window open
         }
     }
 }
