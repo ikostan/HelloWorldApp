@@ -22,6 +22,8 @@ namespace ConsoleUI
             string exitApp = "The application will close now";
             int sleepTime = 3000;
 
+            Console.ForegroundColor = ConsoleColor.Green; //Change foreground color >>> GREEN
+
             Console.Write(greetings); //Greetings message
 
             while (true) {
@@ -41,7 +43,10 @@ namespace ConsoleUI
                 }
 
                 //Display user input
-                Console.Write("User input: " + userInput + "\n");
+                Console.Write("User input: ");
+                Console.ForegroundColor = ConsoleColor.Red; //Change foreground color >>> RED
+                Console.Write(userInput + "\n");
+                Console.ForegroundColor = ConsoleColor.Green; //Change foreground color >>> GREEN
             }           
         }
     }
