@@ -29,7 +29,7 @@ namespace ConsoleUI
                 Console.Write(enterInput); //Ask for user input
 
                 //Keep console window open
-                //Get user input and convert it into a string
+                //Get user input and convert it into a string + clear white spaces
                 string userInput = Console.ReadLine().ToString().Trim();
 
                 //Close app if user type "exit"
