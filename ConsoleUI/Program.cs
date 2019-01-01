@@ -16,19 +16,19 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             //App params
-            string greetings = "Hello dear user.\n";
-            string enterInput = "Please enter your input (or type 'exit' in order to close the app):\n";
+            string greetings = "Hello dear user.";
+            string enterInput = "Please enter your input (or type 'exit' in order to close the app):";
             string exit = "exit";
             string exitApp = "The application will close now";
             int sleepTime = 3000;
 
             Console.ForegroundColor = ConsoleColor.Green; //Change foreground color >>> GREEN
 
-            Console.Write(greetings); //Greetings message
+            Console.WriteLine(greetings); //Greetings message
 
             while (true) {
 
-                Console.Write(enterInput); //Ask for user input
+                Console.WriteLine(enterInput); //Ask for user input
 
                 //Keep console window open
                 //Get user input and convert it into a string + clear white spaces
