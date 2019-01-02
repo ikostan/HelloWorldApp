@@ -16,11 +16,11 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             //App params
-            string greetings = "Hello dear user.";
-            string enterInput = "Please enter your input (or type 'exit' in order to close the app):";
-            string exit = "exit";
-            string exitApp = "The application will close now";
-            int sleepTime = 3000;
+            const string greetings = "Hello dear user.";
+            const string enterInput = "Please enter your input (or type 'exit' in order to close the app):";
+            const string exit = "exit";
+            const string exitApp = "The application will close now";
+            const int sleepTime = 3000;
 
             Console.ForegroundColor = ConsoleColor.Green; //Change foreground color >>> GREEN
 
