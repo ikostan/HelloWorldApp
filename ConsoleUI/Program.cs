@@ -29,10 +29,13 @@ namespace ConsoleUI
             while (true) {
 
                 Console.WriteLine(enterInput); //Ask for user input
+                Console.ForegroundColor = ConsoleColor.Yellow; //Change foreground color >>> YELLOW
 
                 //Keep console window open
                 //Get user input and convert it into a string + clear white spaces
                 string userInput = Console.ReadLine().ToString().Trim();
+
+                Console.ForegroundColor = ConsoleColor.Green; //Change foreground color >>> GREEN
 
                 //Close app if user type "exit"
                 if (userInput.ToLower().Equals(exit)) {
